@@ -1,0 +1,208 @@
+/* START NAVBAR */
+* {
+  font-family: "Bebas Nueu", sans-serif;
+}
+nav > .container > #navbarNav > .nav-item > a {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+  transition: 0.2s linear;
+}
+nav > .container > #navbarNav > .nav-item > a:hover {
+  text-decoration: none;
+  margin-right: 30px;
+  border-bottom: 3px solid #f5a637;
+  padding-bottom: 2px;
+}
+nav > .container > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+nav > .container > a {
+  transition: 0.2s linear;
+}
+nav > .container > a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+  transform: scale(1.2);
+}
+nav > .container > a > .logo:hover {
+  color: #f5a637 !important;
+}
+.banner-image {
+  background-image: url("img/1.jpg");
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -50px;
+  padding: 0;
+}
+.text-1 {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+.text-3 {
+  font-size: 70px;
+  font-family: "Cinzel Decorative", cursive;
+  text-shadow: 5px 1px 6px black;
+}
+.text-1 a {
+  color: #212529 !important;
+}
+.content > .text-2 {
+  font-family: "Poppins", sans-serif;
+  text-shadow: 5px 1px 6px black;
+  margin-bottom: 50px;
+}
+a.button-nav {
+  text-decoration-line: none;
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+  padding: 10px 10px;
+  font-weight: bolder;
+}
+a.button-nav:hover {
+  background-color: #f5a637 !important;
+}
+
+/* END NAVBAR */
+
+/* START DEFAULT */
+
+/* START ABOUT */
+.about > h1 > span {
+  color: #f5a637 !important;
+}
+.about-text > h1 {
+  color: #f5a637;
+}
+.about > .container-fluid > .row > img {
+  animation: 4s linear infinite;
+}
+/* END ABOUT */
+
+/* START CONTENT */
+.home-coloum {
+  border-color: #f5a637 !important;
+}
+.home-img {
+  background-image: url(img/6.jpg);
+  background-size: cover;
+}
+.content-home .text {
+  margin-bottom: 500px;
+  color: #f5a637;
+}
+.content > .text-center > h1 > span {
+  color: #f5a637;
+}
+
+/* END CONTENT */
+
+/* START GALLERY */
+.gallery-item {
+  max-width: 100%;
+}
+.gallery img {
+  background: #fff;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+#gallery-popup .modal-img {
+  width: 100%;
+}
+/* END GALLERY */
+
+/* START MENU */
+.menu > .nab-tabs > .title-menu {
+  color: #f5a637 !important;
+}
+.menu > .container > .row > .text-center > h1 > span {
+  color: #f5a637 !important;
+}
+.img-menu {
+  transition: 0.3s linear;
+}
+.img-menu:hover {
+  transform: scale(1.5);
+}
+.text-tab {
+  color: #f5a637 !important;
+}
+.price {
+  color: #f5a637;
+}
+
+/* END MENU */
+
+/* START RESERVATION */
+.heading > h1 > span {
+  color: #f5a637 !important;
+}
+/* END RESERVATION */
+
+/* START GALLERY */
+.gallery > .container-lg > .row > .text-center > h1 > span {
+  color: #f5a637 !important;
+}
+/* END GALLERY */
+
+/* END DEFAULT */
+
+/* START FOOTER */
+.container > .footer > ul > li .nav-item > i:hover {
+  color: #f5a637;
+}
+/* END FOOTER */
+
+.topcontrol {
+  color: #f5a637 !important;
+}
+
+/* START ADMIN */
+.nav-admin:hover {
+  background-color: black;
+}
+.sidebar-admin {
+  background-color: grey !important;
+}
+/* END ADMIN */
+
+/* RESPONSIVE */
+@media (max-width: 576px) {
+  .banner-image {
+    /* The image used */
+    background-image: url("img/mobile1.jpg");
+
+    /* Set a specific height */
+    width: 100% !important;
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    padding: 0;
+  }
+  .text-3 {
+    font-size: 40px;
+    font-family: "Cinzel Decorative", cursive;
+    text-shadow: 5px 1px 6px black;
+  }
+  .content > .text-2 {
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 1px 6px black;
+    margin-bottom: 30px;
+  }
+}
